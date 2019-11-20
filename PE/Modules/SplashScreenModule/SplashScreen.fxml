@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXProgressBar?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="153.0" prefWidth="515.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PE.Modules.SplashScreenModule.SplashScreenController">
+    <stylesheets>
+        <URL value="@splashscreen.css" />
+    </stylesheets>
+   <children>
+      <JFXProgressBar id="progressBar" fx:id="progressBar" layoutX="11.0" layoutY="185.0" prefHeight="17.0" prefWidth="490.0" progress="0.06" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="11.0" AnchorPane.rightAnchor="11.0" />
+      <Label id="lblStatus" fx:id="lblStatus" layoutX="11.0" layoutY="107.0" text="Loading ..." AnchorPane.bottomAnchor="29.0" AnchorPane.leftAnchor="11.0" />
+      <Label id="lblStatus" fx:id="lblPercent" layoutX="447.0" layoutY="107.0" text="0 %" textAlignment="JUSTIFY" AnchorPane.bottomAnchor="29.0" AnchorPane.rightAnchor="14.0" />
+   </children>
+</AnchorPane>
